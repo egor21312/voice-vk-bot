@@ -10,8 +10,8 @@ print(sys.version)
 os.chdir(os.path.dirname(__file__))
 import bottle
 application = bottle.default_app()
-token = '8c87f13e0ae769de7c46b137f3a170011f1cddec45a6ec02a8a5043cdb454fa2064cc56a3479a78c71bb8'
-confirmation_token = '5968cccb'
+token = 'TOKEN'
+confirmation_token = 'CONFIRM_TOKEN'
 from bottle import route, post, request
 @route('/')
 def hello():
